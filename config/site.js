@@ -15,7 +15,7 @@ module.exports = {
   ],
   description: "Dịch vụ bảo vệ chuyên nghiệp Hoàng Gia Sài Gòn BMC Security.",
   author: "letrungdo",
-  trackingId: "UA-TODO:",
+  trackingId: "UA-154318328-3",
   defaultLang: "vi",
   langTextMap: {
     vi: "Tiếng Việt",

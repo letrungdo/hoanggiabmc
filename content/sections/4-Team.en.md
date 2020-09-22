@@ -1,8 +1,8 @@
 ---
 anchor: "Team"
 header: "Our Amazing Team"
-subheader: ""
-content: "Leaders are gathered from pedagogical lecturers, lawyers ... especially officers in the army and police force, most of them are professional officers, supervisors, scouts, commandos, is an elite special force who has worked for many years in the cause of national defense."
+subheader: "Leaders are gathered from pedagogical lecturers, lawyers ... especially officers in the army and police force, most of them are professional officers, supervisors, scouts, commandos, is an elite special force who has worked for many years in the cause of national defense."
+content: ""
 teamMember: [
   {
     imageFileName: "team/1.png",
@@ -10,7 +10,7 @@ teamMember: [
     subheader: "General Director (Bachelor of Economic Law)",
     social: {
       twitter: "#",
-      facebook: "https://www.facebook.com/profile.php?id=100035168326025",
+      facebook: "100035168326025",
       linkedin: "#"
     }
   },
@@ -20,7 +20,7 @@ teamMember: [
     subheader: "Executive Director (Bachelor of Business Administration)",
     social: {
       twitter: "#",
-      facebook: "https://www.facebook.com/profile.php?id=100004091354324",
+      facebook: "100004091354324",
       medium: "#"
     }
   },

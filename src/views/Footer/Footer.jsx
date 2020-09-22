@@ -23,7 +23,8 @@ const Footer = ({ frontmatter }) => {
       <Container>
         <Row className="align-items-center text-center">
           <Col lg={5} className="text-lg-left">
-            {copyright}
+            {`${copyright} `}
+            <a href="https://xn--t-lia.vn">TĐ.VN</a>
           </Col>
           <Col lg={3} className="my-3 my-lg-0">
             {twitter ? <SocialIcons.Twitter userName={twitter} /> : null}

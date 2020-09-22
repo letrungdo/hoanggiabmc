@@ -1,19 +1,19 @@
 ---
 clients: [
   {
-    imageFileName: "logos/envato.jpg",
+    imageFileName: "logos/coopmart.png",
+    href: "http://www.co-opmart.com.vn/"
+  },
+  {
+    imageFileName: "logos/sungwonhouse.jpg",
+    href: "https://www.facebook.com/sungwonhousekoreanfastfood/"
+  },
+  {
+    imageFileName: "logos/nikkiso.png",
     href: "#!"
   },
   {
-    imageFileName: "logos/designmodo.jpg",
-    href: "#!"
-  },
-  {
-    imageFileName: "logos/themeforest.jpg",
-    href: "#!"
-  },
-  {
-    imageFileName: "logos/creative-market.jpg",
+    imageFileName: "logos/thaodien.png",
     href: "#!"
   }
 ]

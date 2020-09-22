@@ -1,8 +1,8 @@
 ---
 anchor: "Ban lãnh đạo"
-header: "Đội ngũ tuyệt vời của chúng tôi"
-subheader: ""
-content: "Các lãnh đạo được quy tụ từ các giảng viên sư phạm, luật sư… đặc biệt là đội ngũ sĩ quan trong lực lượng Bộ đội và Công an, phần lớn là những cán bộ nghiệp vụ, kiểm soát, trinh sát, đặc công, là lực lượng đặc biệt tinh nhuệ đã từng hoạt động nhiều năm cho sự nghiệp bảo vệ tổ quốc."
+header: "Ban lãnh đạo"
+subheader: "Các lãnh đạo được quy tụ từ các giảng viên sư phạm, luật sư… đặc biệt là đội ngũ sĩ quan trong lực lượng Bộ đội và Công an, phần lớn là những cán bộ nghiệp vụ, kiểm soát, trinh sát, đặc công, là lực lượng đặc biệt tinh nhuệ đã từng hoạt động nhiều năm cho sự nghiệp bảo vệ tổ quốc."
+content: ""
 teamMember: [
   {
     imageFileName: "team/1.png",
@@ -10,7 +10,7 @@ teamMember: [
     subheader: "Tổng giám đốc (Cử nhân luật kinh tế)",
     social: {
       twitter: "#",
-      facebook: "https://www.facebook.com/profile.php?id=100035168326025",
+      facebook: "100035168326025",
       linkedin: "#"
     }
   },
@@ -20,7 +20,7 @@ teamMember: [
     subheader: "Giám đốc điều hành (Cử nhân Quản trị kinh doanh)",
     social: {
       twitter: "#",
-      facebook: "https://www.facebook.com/profile.php?id=100004091354324",
+      facebook: "100004091354324",
       medium: "#"
     }
   },

@@ -7,6 +7,7 @@ module.exports = {
     keywords,
     description,
     author,
+    siteUrl: "https://hoanggiasaigonbmc.com",
   },
   plugins: [
     {

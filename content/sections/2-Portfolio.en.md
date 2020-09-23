@@ -1,7 +1,7 @@
 ---
 anchor: "Portfolio"
 header: "Portfolio"
-subheader: "BMC Royal Security Service Co., Ltd received many projects. List of some projects is listed below."
+subheader: "BMC Royal Security Service Co., Ltd received many projects.\n List of some projects is listed below:"
 portfolios: [
   {
     imageFileName: "portfolio/01-thumbnail.jpg",

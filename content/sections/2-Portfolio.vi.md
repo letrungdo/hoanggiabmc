@@ -1,7 +1,7 @@
 ---
 anchor: "Dự án"
 header: "Dự án đã thực hiện"
-subheader: "Công ty TNHH dịch vụ bảo vệ Hoàng Gia Sài Gòn BMC nhận về rất nhiều dự án. Danh sách một số dự án được liệt kê bên dưới."
+subheader: "Công ty TNHH dịch vụ bảo vệ Hoàng Gia Sài Gòn BMC nhận về rất nhiều dự án.\n Danh sách một số dự án được liệt kê bên dưới:"
 portfolios: [
   {
     imageFileName: "portfolio/01-thumbnail.jpg",

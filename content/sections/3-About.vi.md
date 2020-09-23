@@ -20,7 +20,7 @@ Công ty TNHH dịch vụ bảo vệ Hoàng Gia Sài Gòn BMC được xây dự
     imageFileName: "about/3.png",
     header: "",
     subheader: "Đào tạo nghiệp vụ",
-    content: "Công ty có phòng đào tạo nghiệp vụ, võ thuật do huấn luyện quốc gia đào tạo Công ty có mạng lưới hoạt động khắp trên lãnh thổ Việt Nam với phương châm: TRUNG THỰC – KỶ LUẬT - TRÁCH NHIỆM."
+    content: "Công ty có phòng đào tạo nghiệp vụ, võ thuật do huấn luyện quốc gia đào tạo Công ty có mạng lưới hoạt động khắp trên lãnh thổ Việt Nam với phương châm:\n TRUNG THỰC – KỶ LUẬT - TRÁCH NHIỆM."
   },
   {
     imageFileName: "about/4.jpg",

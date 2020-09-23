@@ -7,7 +7,7 @@ teamMember: [
   {
     imageFileName: "team/1.png",
     header: "Nguyễn Ngân Thạch",
-    subheader: "Tổng giám đốc (Cử nhân luật kinh tế)",
+    subheader: "Tổng giám đốc\n (Cử nhân luật kinh tế)",
     social: {
       twitter: "#",
       facebook: "100035168326025",
@@ -17,7 +17,7 @@ teamMember: [
   {
     imageFileName: "team/2.png",
     header: "Nguyễn Nhật Giang",
-    subheader: "Giám đốc điều hành (Cử nhân Quản trị kinh doanh)",
+    subheader: "Giám đốc điều hành\n (Cử nhân Quản trị kinh doanh)",
     social: {
       twitter: "#",
       facebook: "100004091354324",
@@ -37,7 +37,7 @@ teamMember: [
   {
     imageFileName: "team/4.png",
     header: "Võ Thành Hưng",
-    subheader: "Cố vấn nghiệp vụ (Cử nhân Luật - Cao cấp lý luận chính trị - Nguyên Thanh tra Thành Phố)",
+    subheader: "Cố vấn nghiệp vụ\n (Cử nhân Luật - Cao cấp lý luận chính trị - Nguyên Thanh tra Thành Phố)",
     social: {
       twitter: "#",
       facebook: "#",
@@ -47,7 +47,7 @@ teamMember: [
   {
     imageFileName: "team/5.png",
     header: "Nguyễn Văn Hoàng",
-    subheader: "Trưởng P.Đào tạo (Cử nhân võ thuật Taekwondo ngũ đẳng)",
+    subheader: "Trưởng Phòng Đào tạo\n (Cử nhân võ thuật Taekwondo ngũ đẳng)",
     social: {
       twitter: "#",
       facebook: "#",
@@ -57,7 +57,7 @@ teamMember: [
   {
     imageFileName: "team/6.png",
     header: "Vũ Hoàng",
-    subheader: "Trưởng Phòng Nghiệp Vụ (Nguyên Thiếu Úy Tổng cục hậu cần QK7)",
+    subheader: "Trưởng Phòng Nghiệp Vụ\n (Nguyên Thiếu Úy Tổng cục hậu cần QK7)",
     social: {
       twitter: "#",
       facebook: "#",

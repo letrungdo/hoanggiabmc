@@ -20,7 +20,7 @@ BMC Royal Security Services Co., Ltd is built on the foundation of scientific se
     imageFileName: "about/3.png",
     header: "",
     subheader: "Professional training",
-    content: "The company has a professional training room, martial arts trained by national training The company has a network of operations throughout the territory of Vietnam with the motto: HONESTY - DISCIPLINE - RESPONSIBILITY."
+    content: "The company has a professional training room, martial arts trained by national training The company has a network of operations throughout the territory of Vietnam with the motto:\n HONESTY - DISCIPLINE - RESPONSIBILITY."
   },
   {
     imageFileName: "about/4.jpg",

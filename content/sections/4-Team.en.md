@@ -7,7 +7,7 @@ teamMember: [
   {
     imageFileName: "team/1.png",
     header: "Nguyen Ngan Thach",
-    subheader: "General Director (Bachelor of Economic Law)",
+    subheader: "General Director\n (Bachelor of Economic Law)",
     social: {
       twitter: "#",
       facebook: "100035168326025",
@@ -17,7 +17,7 @@ teamMember: [
   {
     imageFileName: "team/2.png",
     header: "Nguyen Nhat Giang",
-    subheader: "Executive Director (Bachelor of Business Administration)",
+    subheader: "Executive Director\n (Bachelor of Business Administration)",
     social: {
       twitter: "#",
       facebook: "100004091354324",
@@ -37,7 +37,7 @@ teamMember: [
   {
     imageFileName: "team/4.png",
     header: "Vo Thanh Hung",
-    subheader: "Professional advisor (Bachelor of Laws - Senior political theory - Former City Inspector)",
+    subheader: "Professional advisor\n (Bachelor of Laws - Senior political theory - Former City Inspector)",
     social: {
       twitter: "#",
       facebook: "#",
@@ -47,7 +47,7 @@ teamMember: [
   {
     imageFileName: "team/5.png",
     header: "Nguyen Van Hoang",
-    subheader: "Head of Training Department (Bachelor of martial arts in Taekwondo five-dan)",
+    subheader: "Head of Training Department\n (Bachelor of martial arts in Taekwondo five-dan)",
     social: {
       twitter: "#",
       facebook: "#",
@@ -57,7 +57,7 @@ teamMember: [
   {
     imageFileName: "team/6.png",
     header: "Vu Hoang",
-    subheader: "Head of Operations (Former Lieutenant General of QK7 Logistics Department)",
+    subheader: "Head of Operations\n (Former Lieutenant General of QK7 Logistics Department)",
     social: {
       twitter: "#",
       facebook: "#",

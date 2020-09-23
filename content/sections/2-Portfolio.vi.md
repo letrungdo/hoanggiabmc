@@ -1,31 +1,47 @@
 ---
-anchor: "Dự án"
-header: "Dự án đã thực hiện"
-subheader: "Công ty TNHH dịch vụ bảo vệ Hoàng Gia Sài Gòn BMC nhận về rất nhiều dự án.\n Danh sách một số dự án được liệt kê bên dưới:"
+anchor: "Hồ Sơ Pháp Lý"
+header: "Hồ Sơ Pháp Lý"
+subheader: "Công ty TNHH dịch vụ bảo vệ Hoàng Gia Sài Gòn BMC có đầy đủ giấy tờ pháp lý."
 portfolios: [
   {
-    imageFileName: "portfolio/01-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/01-full.jpg",
-    header: "Threads",
-    subheader: "Illustration",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Threads", "Category: Illustration"]
+    imageFileName: "portfolio/cn-dk-doanh-nghiep.png",
+    imageFileNameDetail: "portfolio/cn-dk-doanh-nghiep2.png",
+    header: "Chứng nhận đăng ký doanh nghiệp",
+    subheader: "",
+    content: "",
+    extraInfo: ["07/05/2019"]
   },
   {
-    imageFileName: "portfolio/02-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/02-full.jpg",
-    header: "Explorer",
-    subheader: "Graphic Design",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Explorer", "Category: Graphic Design"]
+    imageFileName: "portfolio/cn-du-dieu-kien-an-ninh.png",
+    imageFileNameDetail: "portfolio/cn-du-dieu-kien-an-ninh2.png",
+    header: "Chứng nhận đủ điều kiện an ninh, trật tự",
+    subheader: "",
+    content: "",
+    extraInfo: []
   },
   {
-    imageFileName: "portfolio/03-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/03-full.jpg",
-    header: "Finish",
-    subheader: "Identity",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Finish", "Category: Identity"]
-  }
+    imageFileName: "portfolio/cn-huan-luyen-nghiep-vu.png",
+    imageFileNameDetail: "portfolio/cn-huan-luyen-nghiep-vu2.png",
+    header: "Chứng nhận huấn luyện nghiệp vụ",
+    subheader: "",
+    content: "",
+    extraInfo: []
+  },
+  {
+    imageFileName: "portfolio/cn-bao-hiem.png",
+    imageFileNameDetail: "portfolio/cn-bao-hiem2.png",
+    header: "Chứng nhận bảo hiểm nghề nghiệp",
+    subheader: "",
+    content: "",
+    extraInfo: []
+  },
+  {
+    imageFileName: "portfolio/gp-su-dung-ccht.png",
+    imageFileNameDetail: "portfolio/gp-su-dung-ccht2.png",
+    header: "Giấy phép sử dụng CCHT",
+    subheader: "",
+    content: "",
+    extraInfo: []
+  },
 ]
 ---

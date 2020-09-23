@@ -22,7 +22,7 @@ module.exports = {
         short_name: "HoangGiaBMC",
         start_url: "/",
         background_color: "#ffffff",
-        theme_color: "#fed136",
+        theme_color: "#ec396f",
         display: "minimal-ui",
         icon: "content/assets/police-man.png",
       },
@@ -82,6 +82,12 @@ module.exports = {
         langKeyDefault: defaultLang,
         useLangKeyLayout: false,
         pagesPaths: ["/content/"],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        sitemapSize: 5000,
       },
     },
   ],

@@ -1,31 +1,47 @@
 ---
-anchor: "Portfolio"
-header: "Portfolio"
-subheader: "BMC Royal Security Service Co., Ltd received many projects.\n List of some projects is listed below:"
+anchor: "Legal records"
+header: "Legal records"
+subheader: "BMC Royal Security Service Company Limited has full legal documents."
 portfolios: [
   {
-    imageFileName: "portfolio/01-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/01-full.jpg",
-    header: "Threads",
-    subheader: "Illustration",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Threads", "Category: Illustration"]
+    imageFileName: "portfolio/cn-dk-doanh-nghiep.png",
+    imageFileNameDetail: "portfolio/cn-dk-doanh-nghiep2.png",
+    header: "Business registration certificate",
+    subheader: "",
+    content: "",
+    extraInfo: ["07/05/2019"]
   },
   {
-    imageFileName: "portfolio/02-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/02-full.jpg",
-    header: "Explorer",
-    subheader: "Graphic Design",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Explorer", "Category: Graphic Design"]
+    imageFileName: "portfolio/cn-du-dieu-kien-an-ninh.png",
+    imageFileNameDetail: "portfolio/cn-du-dieu-kien-an-ninh2.png",
+    header: "Certificate of satisfaction of security and order conditions",
+    subheader: "",
+    content: "",
+    extraInfo: []
   },
   {
-    imageFileName: "portfolio/03-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/03-full.jpg",
-    header: "Finish",
-    subheader: "Identity",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Finish", "Category: Identity"]
+    imageFileName: "portfolio/cn-huan-luyen-nghiep-vu.png",
+    imageFileNameDetail: "portfolio/cn-huan-luyen-nghiep-vu2.png",
+    header: "Professional training certificate",
+    subheader: "",
+    content: "",
+    extraInfo: []
+  },
+  {
+    imageFileName: "portfolio/cn-bao-hiem.png",
+    imageFileNameDetail: "portfolio/cn-bao-hiem2.png",
+    header: "Occupational insurance certificate",
+    subheader: "",
+    content: "",
+    extraInfo: []
+  },
+  {
+    imageFileName: "portfolio/gp-su-dung-ccht.png",
+    imageFileNameDetail: "portfolio/gp-su-dung-ccht2.png",
+    header: "License to use infrastructure",
+    subheader: "",
+    content: "",
+    extraInfo: []
   },
 ]
 ---

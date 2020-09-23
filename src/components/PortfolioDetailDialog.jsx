@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-import { Modal, Button } from "react-bootstrap";
 import Image from "components/Image";
-import Icon from "./Icon";
+import { Modal } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
+// import Icon from "./Icon";
 
 const PortfolioDetailDialog = ({
   onHide,
@@ -26,7 +26,7 @@ const PortfolioDetailDialog = ({
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">{header}</Modal.Title>
       </Modal.Header>
-      <Modal.Body className="mx-auto">
+      <Modal.Body>
         <p className="item-intro text-muted">{subheader}</p>
         <Image
           className="img-fluid d-block"
@@ -36,14 +36,14 @@ const PortfolioDetailDialog = ({
         <p>{content}</p>
         {extraInfo}
       </Modal.Body>
-      <Modal.Footer>
+      {/* <Modal.Footer>
         <div className="mx-auto">
           <Button variant="primary" onClick={onHide}>
             <Icon iconName="CloseIcon" />
             &nbsp; Close Project
           </Button>
         </div>
-      </Modal.Footer>
+      </Modal.Footer> */}
     </Modal>
   );
 };

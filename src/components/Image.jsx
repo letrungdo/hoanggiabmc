@@ -31,7 +31,7 @@ const Image = ({ fileName, alt, ...restProps }) => (
       }
 
       const imageSizes = image.node.childImageSharp.sizes;
-      return <Img alt={alt} sizes={imageSizes} {...restProps} />;
+      return <Img alt={alt} fluid={imageSizes} {...restProps} />;
     }}
   />
 );

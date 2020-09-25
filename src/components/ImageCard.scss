@@ -1,10 +1,12 @@
 .image-card {
   height: 491px;
+  border-radius: 0 !important;
   .image {
     height: 491px;
   }
-  .no-padding {
+  .card-overlay {
     padding: 0;
+    background-color: rgba(0, 0, 0, 0.6);
   }
   .intro-text {
     padding-top: 150px;

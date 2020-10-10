@@ -27,7 +27,7 @@ teamMember: [
   {
     imageFileName: "team/3.png",
     header: "Huynh Thanh Trung",
-    subheader: "Deputy CEO",
+    subheader: "Deputy CEO\n(Bachelor of Laws)",
     social: {
       twitter: "#",
       facebook: "#",

@@ -1,0 +1,4 @@
+// Get dynamic size pt => px
+@function get-size($pt-size) {
+    @return calc(var(--ss) / var(--ts) * #{$pt-size}px);
+}

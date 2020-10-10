@@ -25,14 +25,14 @@ const Contact = ({ className, frontmatter }) => {
         </Col>
       </Row>
       <Row>
-        <Col lg={4} className="ml-auto text-center">
-          <Icon iconName="PhoneIcon" size="3x" className="text-muted mb-3" />
+        <Col lg={6} className="ml-auto text-center d-flex align-items-center justify-content-center">
+          <Icon iconName="PhoneIcon" size="2x" className="text-muted mr-2" />
           <a className="d-block" href={`tel:${telephone}`}>
             {telephone}
           </a>
         </Col>
-        <Col lg={4} className="mr-auto text-center">
-          <Icon iconName="EnvelopIcon" size="3x" className="text-muted mb-3" />
+        <Col lg={6} className="mr-auto text-center d-flex align-items-center justify-content-center">
+          <Icon iconName="EnvelopIcon" size="2x" className="text-muted mr-2" />
           <a className="d-block" href={`mailto:${email}`}>
             {email}
           </a>

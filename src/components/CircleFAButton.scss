@@ -1,6 +1,8 @@
+@import "../style/size-utils.scss";
+
 .circle-fa-button {
-  width: 128px;
-  height: 128px;
+  width: get-size(60);
+  height: get-size(60);
   background: $primary;
   border-radius: 100%;
   display: flex;

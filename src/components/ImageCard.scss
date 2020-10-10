@@ -1,3 +1,5 @@
+@import "../style/size-utils.scss";
+
 .image-card {
   height: 491px;
   border-radius: 0 !important;
@@ -9,47 +11,21 @@
     background-color: rgba(0, 0, 0, 0.6);
   }
   .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: get-size(150);
+    padding-bottom: get-size(100);
     .intro-lead-in {
-      font-size: 22px;
+      font-size: get-size(18);
       font-style: italic;
-      line-height: 22px;
-      margin-bottom: 25px;
+      line-height: get-size(20);
+      margin-bottom: get-size(25);
       @include serif-font;
     }
     .intro-heading {
-      font-size: 50px;
+      font-size: get-size(30);
       font-weight: 700;
-      line-height: 50px;
-      margin-bottom: 25px;
+      line-height: get-size(40);
+      margin-bottom: get-size(25);
       @include heading-font;
-    }
-  }
-}
-@media (min-width: 768px) {
-  .image-card {
-    height: 759px;
-    .image {
-      height: 759px;
-    }
-    .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
-      .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-        margin-bottom: 25px;
-        @include serif-font;
-      }
-      .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 50px;
-        @include heading-font;
-      }
     }
   }
 }

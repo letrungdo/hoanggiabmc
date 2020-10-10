@@ -1,5 +1,37 @@
 // bootstrap
 @import "~bootstrap/scss/bootstrap";
+@import "./size-utils.scss";
+
+:root {
+  --ts: 414;
+  --ss: 414;
+}
+
+@media (max-width: 320px) {
+  :root {
+      --ss: 320;
+  }
+}
+@media (min-width: 320px) {
+  :root {
+      --ss: 320;
+  }
+}
+@media (min-width: 375px) {
+  :root {
+      --ss: 375;
+  }
+}
+@media (min-width: 414px) {
+  :root {
+      --ss: 414;
+  }
+}
+@media (min-width: 480px) {
+  :root {
+      --ss: 480;
+  }
+}
 
 /* Global styling for this template */
 body {
@@ -25,8 +57,25 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
   @include heading-font;
+}
+h1,
+h2 {
+  font-weight: 700;
+  font-size: get-size(30);
+}
+h3 {
+  font-weight: 600;
+  font-size: get-size(25);
+}
+h4,
+h5 {
+  font-weight: 500;
+  font-size: get-size(18);
+}
+h6 {
+  font-weight: 400;
+  font-size: get-size(16);
 }
 
 .cursor-pointer {
@@ -62,8 +111,8 @@ img::-moz-selection {
 }
 
 .btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
+  font-size: get-size(16);
+  padding: get-size(10) get-size(15);
 }
 
 .btn-primary {

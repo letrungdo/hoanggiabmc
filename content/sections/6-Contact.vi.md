@@ -1,7 +1,7 @@
 ---
 anchor: "Liên hệ"
 header: "Liên hệ"
-subheader: "- Trụ Sở: 2295/84 Huỳnh Tấn Phát Thị Trấn Nhà Bè, H.Nhà Bè, TP. HCM.\n;- Văn phòng đại diện: 39F Nguyễn Thị Thơi, Phường Hiệp Thành, Quận 12, TP. HCM.;\nSẵn sàng để bắt đầu dự án tiếp theo của bạn với chúng tôi?\n Hãy gọi cho chúng tôi hoặc gửi email cho chúng tôi và chúng tôi sẽ liên hệ lại với bạn trong thời gian sớm nhất!"
+subheader: "- Trụ Sở: 2295/84 Huỳnh Tấn Phát Thị Trấn Nhà Bè, H. Nhà Bè, HCM.\n;- Văn phòng đại diện: 39F Nguyễn Thị Thơi, P. Hiệp Thành, Q12, HCM.;\n Hãy gọi hoặc gửi email theo thông tin bên dưới và chúng tôi sẽ liên hệ lại với bạn trong thời gian sớm nhất!"
 telephone: 0937451910
-email: thachhoanggiasaigonSSS@gmail.com
+email: thachhoanggiasaigonsss@gmail.com
 ---

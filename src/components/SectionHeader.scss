@@ -1,14 +1,16 @@
+@import "../style/size-utils.scss";
+
 .section-header {
   h2.section-heading {
-    font-size: 30px;
+    font-size: get-size(30);
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: get-size(15);
   }
   h3.section-subheading {
-    font-size: 16px;
+    font-size: get-size(16);
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 25px;
+    margin-bottom: get-size(25);
     text-transform: none;
     @include serif-font;
   }

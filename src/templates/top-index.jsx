@@ -48,7 +48,6 @@ export const query = graphql`
           menuText
           events {
             content
-            extraInfo
             header
             subheader
             imageFileNameDetail
@@ -143,8 +142,6 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
           const sectionComponentName = fileNameToSectionName(fileName);
           const SectionComponent = Sections[sectionComponentName];
           
-          console.log(fileName, SectionComponent);
-
           return SectionComponent ? (
             <SectionComponent
               key={sectionComponentName}

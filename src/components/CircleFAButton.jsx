@@ -8,7 +8,7 @@ import "./CircleFAButton.scss";
 const CircleFAButton = ({ iconName, ...restProps }) => {
   return (
     <div className="circle-fa-button">
-      <Icon iconName={iconName} inverse size="4x" {...restProps} />
+      <Icon iconName={iconName} inverse size="2x" {...restProps} />
     </div>
   );
 };

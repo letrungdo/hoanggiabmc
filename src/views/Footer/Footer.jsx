@@ -22,7 +22,7 @@ const Footer = ({ frontmatter }) => {
     <footer className="footer py-3">
       <Container>
         <Row className="align-items-center text-center">
-          <Col lg={5} className="text-lg-left">
+          <Col lg={4} className="text-lg-left">
             {`${copyright} `}
             <a href="https://xn--t-lia.vn" target="_blank" rel="noreferrer">
               TĐ.VN
@@ -35,7 +35,7 @@ const Footer = ({ frontmatter }) => {
             {github ? <SocialIcons.Github userName={github} /> : null}
             {medium ? <SocialIcons.Medium userName={medium} /> : null}
           </Col>
-          <Col lg={4} className="text-lg-right">
+          <Col lg={5} className="text-lg-right">
             <a className="mr-3" href={privacyHref}>
               {privacyText}
             </a>

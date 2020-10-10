@@ -28,7 +28,7 @@ const PortfolioItem = ({
 
   return (
     <>
-      <Col md={4} sm={6} className="portfolio-item">
+      <Col md={3} sm={6} xs={6} className="portfolio-item">
         <a
           role="button"
           tabIndex={-1}

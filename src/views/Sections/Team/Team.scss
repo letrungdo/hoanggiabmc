@@ -16,3 +16,25 @@
     margin-top: 0;
   }
 }
+@media (max-width: 320px) {
+  .team-member {
+    margin-bottom: 50px;
+    text-align: center;
+    .circle {
+      width: 100px;
+      height: 100px;
+      border: 7px solid fade-out($black, 0.9);
+    }
+  }
+}
+@media (max-width: 480px) {
+  .team-member {
+    margin-bottom: 50px;
+    text-align: center;
+    .circle {
+      width: 150px;
+      height: 150px;
+      border: 7px solid fade-out($black, 0.9);
+    }
+  }
+}

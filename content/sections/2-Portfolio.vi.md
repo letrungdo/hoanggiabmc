@@ -1,5 +1,5 @@
 ---
-anchor: "Hồ Sơ Pháp Lý"
+anchor: "Hồ Sơ"
 header: "Hồ Sơ Pháp Lý"
 subheader: "Công ty TNHH dịch vụ bảo vệ Hoàng Gia Sài Gòn BMC có đầy đủ giấy tờ pháp lý."
 portfolios: [

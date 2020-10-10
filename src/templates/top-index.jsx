@@ -46,6 +46,14 @@ export const query = graphql`
           jumpToAnchor
           jumpToAnchorText
           menuText
+          events {
+            content
+            extraInfo
+            header
+            subheader
+            imageFileNameDetail
+            imageFileName
+          }
           portfolios {
             content
             extraInfo
@@ -134,6 +142,8 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
         sectionsNodes.map(({ frontmatter, fields: { fileName } }, ind) => {
           const sectionComponentName = fileNameToSectionName(fileName);
           const SectionComponent = Sections[sectionComponentName];
+          
+          console.log(fileName, SectionComponent);
 
           return SectionComponent ? (
             <SectionComponent

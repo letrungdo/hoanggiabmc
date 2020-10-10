@@ -29,3 +29,30 @@
     }
   }
 }
+@media (min-width: 768px) {
+  .image-card {
+    height: 759px;
+    .image {
+      height: 759px;
+    }
+    .intro-text {
+      padding-top: 300px;
+      padding-bottom: 200px;
+      .intro-lead-in {
+        font-size: 30px;
+        font-style: italic;
+        line-height: 30px;
+        margin-bottom: 25px;
+        @include serif-font;
+      }
+      .intro-heading {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 45px;
+        margin-bottom: 50px;
+        @include heading-font;
+      }
+    }
+  }
+}
+

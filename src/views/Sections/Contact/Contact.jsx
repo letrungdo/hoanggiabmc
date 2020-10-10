@@ -11,6 +11,7 @@ const Contact = ({ className, frontmatter }) => {
   }
 
   const { anchor, header, subheader, telephone, email } = frontmatter;
+  const info = subheader.split(";");
 
   return (
     <PageSection className={className} id={anchor}>
@@ -18,7 +19,9 @@ const Contact = ({ className, frontmatter }) => {
         <Col lg={8} className="text-center">
           <h2 className="mt-0">{header}</h2>
           <hr className="divider my-4" />
-          <p className="text-muted mb-5">{subheader}</p>
+          <h6 className="mt-0">{info[0]}</h6>
+          <h6 className="mt-0">{info[1]}</h6>
+          <p className="text-muted mb-5">{info[2]}</p>
         </Col>
       </Row>
       <Row>

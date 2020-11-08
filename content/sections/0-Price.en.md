@@ -30,8 +30,7 @@ prices: [
       "Price: 8,000,000 VND / shift 12 hours / 24h / month. (Not included VAT)",
       "Price: 15,000,000 VND / shift 24h / 24h / month. (Not included VAT)",
       "Service price of shifts requested by customers, please contact us directly for more detailed advice.",
-      "We offer 100% promotion of mobile patrol team and support when there is an incident at the target, including: Quick response team, Command team. (Will support after 15 minutes when receiving information need support. ) ",
-      "At the same time to demonstrate the company's responsibility to customers when signing the contract, we will deposit an amount equivalent to one month's service fee so that customers can be assured when using Hoang's services. Gia Sai Gon BMC. ",
+      "We offer 100% promotion of mobile patrol team and support when there is an incident at the target, including: Quick response team, Command team. (Will support after 15 minutes when receiving information need support.)",
     ],
   },
   {

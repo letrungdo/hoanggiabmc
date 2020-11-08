@@ -9,27 +9,27 @@
 
 @media (max-width: 320px) {
   :root {
-      --ss: 320;
+    --ss: 320;
   }
 }
 @media (min-width: 320px) {
   :root {
-      --ss: 320;
+    --ss: 320;
   }
 }
 @media (min-width: 375px) {
   :root {
-      --ss: 375;
+    --ss: 375;
   }
 }
 @media (min-width: 414px) {
   :root {
-      --ss: 414;
+    --ss: 414;
   }
 }
 @media (min-width: 480px) {
   :root {
-      --ss: 480;
+    --ss: 480;
   }
 }
 
@@ -38,9 +38,18 @@ body {
   overflow-x: hidden;
   @include body-font;
 }
+html,
+body {
+  // Disables pull-to-refresh and overscroll glow effect.
+  overscroll-behavior: none;
+}
 
 p {
   line-height: 1.75;
+}
+
+a, .text-lg-left {
+  font-size: get-size(18);
 }
 
 .text-primary {
@@ -71,11 +80,11 @@ h3 {
 h4,
 h5 {
   font-weight: 500;
-  font-size: get-size(18);
+  font-size: get-size(19);
 }
 h6 {
   font-weight: 400;
-  font-size: get-size(16);
+  font-size: get-size(18);
 }
 
 .cursor-pointer {

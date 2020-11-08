@@ -1,44 +1,56 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-import { Button } from "react-bootstrap";
-import useSmoothScrollTo from "hooks/useSmoothScrollTo";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Autoplay } from "swiper";
+// Import Swiper styles
+import "swiper/swiper-bundle.css";
 import ImageCard from "components/ImageCard";
 
-const Top = ({ frontmatter }) => {
+import "./style.scss";
+
+SwiperCore.use([Autoplay]);
+
+const Top = ({ frontmatter, backgrounds }) => {
   if (!frontmatter) {
     return null;
   }
 
-  const { header, subheader, imageFileName, jumpToAnchor, jumpToAnchorText } = frontmatter;
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const scrollToSection = useSmoothScrollTo(jumpToAnchor);
-
-  let extraInfoPart;
-  if (jumpToAnchor && jumpToAnchorText) {
-    extraInfoPart = (
-      <Button size="xl" variant="primary" className="text-uppercase" onClick={scrollToSection}>
-        {jumpToAnchorText}
-      </Button>
-    );
-  }
+  const { header, subheader } = frontmatter;
 
   return (
-    <ImageCard
-      imageFileName={imageFileName}
-      header={header}
-      subheader={subheader}
-      extraInfo={extraInfoPart}
-    />
+    <>
+      <Swiper
+        spaceBetween={0}
+        slidesPerView={1}
+        loop={true}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+      >
+        {backgrounds.map((img) => (
+          <SwiperSlide key={img.relativePath}>
+            <ImageCard
+              fluid={img.childImageSharp.fluid}
+              header={header}
+              subheader={subheader}
+            />
+
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </>
   );
 };
 
 Top.propTypes = {
   frontmatter: PropTypes.object,
+  backgrounds: PropTypes.array,
 };
 
 Top.defaultProps = {
   frontmatter: null,
+  backgrounds: [],
 };
 
 export default Top;

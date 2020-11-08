@@ -18,7 +18,7 @@ module.exports = {
   trackingId: "UA-154318328-3",
   defaultLang: "vi",
   langTextMap: {
-    vi: "Tiếng Việt",
+    vi: "VN",
     en: "English",
   },
 };

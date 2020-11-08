@@ -23,7 +23,7 @@ module.exports = {
         short_name: "HoangGiaBMC",
         start_url: "/",
         background_color: "#ffffff",
-        theme_color: "#ec396f",
+        theme_color: "#000000",
         display: "minimal-ui",
         icon: "content/assets/police-man.png",
       },
@@ -41,6 +41,13 @@ module.exports = {
       options: {
         name: "images",
         path: `${__dirname}/content/assets/images`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "backgrounds",
+        path: `${__dirname}/src/bg`,
       },
     },
     "gatsby-plugin-eslint",

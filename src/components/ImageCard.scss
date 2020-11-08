@@ -1,58 +1,59 @@
 @import "../style/size-utils.scss";
 
 .image-card {
-  height: 491px;
+  height: get-size(300);
   border-radius: 0 !important;
-  .image {
-    height: 491px;
-  }
   .card-overlay {
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.6);
   }
   .intro-text {
-    padding-top: get-size(150);
-    padding-bottom: get-size(100);
+    margin: get-size(155) 10px 0;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 5px;
     .intro-lead-in {
       font-size: get-size(18);
       font-style: italic;
       line-height: get-size(20);
-      margin-bottom: get-size(25);
       @include serif-font;
     }
     .intro-heading {
-      font-size: get-size(30);
+      font-size: get-size(24);
       font-weight: 700;
       line-height: get-size(40);
-      margin-bottom: get-size(25);
       @include heading-font;
+      color: rgb(84, 247, 192);
+    }
+  }
+}
+@media (max-width: 380px) {
+  .image-card {
+    height: get-size(300);
+    .intro-text {
+      margin: get-size(135) 10px 0;
+      .intro-heading {
+        font-size: get-size(20);
+        line-height: get-size(40);
+      }
     }
   }
 }
 @media (min-width: 768px) {
   .image-card {
-    height: 759px;
-    .image {
-      height: 759px;
-    }
+    height: 700px;
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      margin: 470px 50px 0;
       .intro-lead-in {
         font-size: 30px;
-        font-style: italic;
-        line-height: 30px;
-        margin-bottom: 25px;
+        line-height: 60px;
         @include serif-font;
       }
       .intro-heading {
         font-size: 45px;
         font-weight: 700;
-        line-height: 45px;
-        margin-bottom: 50px;
+        line-height: 60px;
         @include heading-font;
       }
     }
   }
 }
-

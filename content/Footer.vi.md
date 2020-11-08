@@ -5,8 +5,8 @@ social: {
   facebook: "100035168326025",
   medium: "#"
 }
-privacyText: "Chính sách bảo mật"
+privacyText: "Privacy Policy"
 privacyHref: "#!"
-termsText: "Điều khoản sử dụng"
+termsText: "Terms of Use"
 termsHref: "#!"
 ---

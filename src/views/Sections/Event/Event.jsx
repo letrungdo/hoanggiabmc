@@ -23,7 +23,7 @@ const Event = ({ className, frontmatter }) => {
         {events.map(
           ({ content, extraInfo, header, imageFileName, imageFileNameDetail, subheader }) => (
             <PortfolioItem
-              key={header}
+              key={imageFileName}
               imageFileName={imageFileName}
               header={header}
               subheader={subheader}

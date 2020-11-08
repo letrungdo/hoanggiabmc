@@ -26,6 +26,16 @@ export const query = graphql`
         description
       }
     }
+    backgrounds: allFile(filter: { sourceInstanceName: { eq: "backgrounds" } }) {
+      nodes {
+        relativePath
+        childImageSharp {
+          fluid(maxWidth: 4000, quality: 100) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
     allMarkdownRemark(
       filter: { fields: { langKey: { eq: $langKey } } }
       sort: { order: ASC, fields: [fields___directoryName, fields___fileName] }
@@ -116,6 +126,7 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
       siteMetadata: { keywords, description },
     },
     allMarkdownRemark: { nodes },
+    backgrounds,
   } = data;
 
   const { topNode, navBarNode, anchors, footerNode, sectionsNodes } = breakDownAllNodes(nodes);
@@ -129,19 +140,25 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
 
   return (
     <>
-      <SEO lang={langKey} title="Hoàng Gia Sài Gòn BMC Security" keywords={keywords} description={description} />
+      <SEO
+        lang={langKey}
+        title="Hoàng Gia Sài Gòn BMC Security"
+        keywords={keywords}
+        description={description}
+      />
       <Navbar
         anchors={anchors}
         frontmatter={navBarNode.frontmatter}
         extraItems={langSelectorPart}
       />
-      <Top frontmatter={topNode.frontmatter} />
+
+      <Top frontmatter={topNode.frontmatter} backgrounds={backgrounds.nodes} />
       {
         // dynamically import sections
         sectionsNodes.map(({ frontmatter, fields: { fileName } }, ind) => {
           const sectionComponentName = fileNameToSectionName(fileName);
           const SectionComponent = Sections[sectionComponentName];
-          
+
           return SectionComponent ? (
             <SectionComponent
               key={sectionComponentName}
@@ -163,8 +180,8 @@ IndexPage.propTypes = {
 
 IndexPage.defaultProps = {
   pathContext: {
-    langKey: "en",
-    defaultLang: "en",
+    langKey: "vi",
+    defaultLang: "vi",
     langTextMap: {},
   },
 };

@@ -2,12 +2,13 @@
 
 .section-header {
   h2.section-heading {
-    font-size: get-size(30);
+    font-size: get-size(25);
     margin-top: 0;
     margin-bottom: get-size(15);
+    color: rgba(18, 89, 117, 0.726);
   }
   h3.section-subheading {
-    font-size: get-size(16);
+    font-size: get-size(18);
     font-weight: 400;
     font-style: italic;
     margin-bottom: get-size(25);

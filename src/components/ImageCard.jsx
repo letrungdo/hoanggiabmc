@@ -1,23 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
-
-import { Container, Card } from "react-bootstrap";
-import Image from "components/Image";
+import { Card } from "react-bootstrap";
 import "./ImageCard.scss";
+import Img from "gatsby-image";
 
-const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extraInfo }) => {
+const ImageCard = ({ className, fluid, header, subheader, extraInfo }) => {
   return (
     <Card className={clsx("image-card bg-dark text-white text-center", className)}>
-      <Image className="image" fileName={imageFileName} alt={imageAlt || header || subheader} />
+      <Img className="image-card" alt="bg-slide" fluid={fluid} />
       <Card.ImgOverlay className="card-overlay">
-        <Container>
-          <div className="intro-text">
-            <div className="intro-lead-in">{subheader}</div>
-            <div className="intro-heading text-uppercase">{header}</div>
-            {extraInfo}
-          </div>
-        </Container>
+        <div className="intro-text">
+          <div className="intro-lead-in">{subheader}</div>
+          <div className="intro-heading text-uppercase">{header}</div>
+          {extraInfo}
+        </div>
       </Card.ImgOverlay>
     </Card>
   );
@@ -25,8 +22,7 @@ const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extr
 
 ImageCard.propTypes = {
   className: PropTypes.string,
-  imageFileName: PropTypes.string,
-  imageAlt: PropTypes.string,
+  fluid: PropTypes.object,
   header: PropTypes.string,
   subheader: PropTypes.string,
   extraInfo: PropTypes.any,
@@ -34,8 +30,7 @@ ImageCard.propTypes = {
 
 ImageCard.defaultProps = {
   className: null,
-  imageFileName: null,
-  imageAlt: null,
+  fluid: null,
   header: "",
   subheader: "",
   extraInfo: null,

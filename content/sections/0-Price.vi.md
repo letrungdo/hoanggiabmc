@@ -31,7 +31,6 @@ prices: [
       "Giá: 15.000.000 VNĐ/ca 24h/24h/tháng. (Chưa bao gồm VAT)",
       "Giá dịch vụ các ca theo yêu cầu của quý khách hàng vui lòng liên hệ trực tiếp cho chúng tôi để được tư vấn chi tiết hơn.",
       "Chúng tôi khuyến mãi 100% đội tuần tra cơ động và hỗ trợ khi có sự cố tại mục tiêu gồm có: Đội phản ứng nhanh, Đội điều lệnh. (Sẽ hỗ trợ sau 15 phút khi nhận được thông tin cần hỗ trợ.)",
-      "Đồng thời để thể hiện trách nhiệm của công ty đối với với khách hàng khi ký hợp đồng, chúng tôi sẽ ký quỹ với số tiền tương đương một tháng phí dịch vụ để khách hàng có thể yên tâm khi sử dụng dịch vụ của Hoàng Gia Sài Gòn BMC.",
     ],
   },
   {

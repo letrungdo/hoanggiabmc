@@ -1,0 +1,21 @@
+@import "../../../style/size-utils.scss";
+// Styling for the price section
+.price-section {
+  padding: 30px 10px;
+  * {
+    z-index: 2;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  h4 {
+    color: rgb(221, 11, 74);
+    font-weight: 600;
+    font-size: get-size(19);
+    margin: 10px 0;
+  }
+  .check-icon {
+    margin: 0 5px 0 10px;
+  }
+}

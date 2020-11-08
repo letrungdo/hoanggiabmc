@@ -56,6 +56,10 @@ export const query = graphql`
           jumpToAnchor
           jumpToAnchorText
           menuText
+          prices {
+            header
+            content
+          }
           events {
             content
             header

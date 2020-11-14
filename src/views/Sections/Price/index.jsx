@@ -21,13 +21,15 @@ const Price = ({ className, frontmatter }) => {
         {prices.map(({ header, content }) => (
           <div className="wrapper" key={header}>
             <h4>{header}</h4>
-            {content.map((ct, index) => (
-              // eslint-disable-next-line react/no-array-index-key
-              <span key={index}>
-                <Icon className="check-icon" iconName="CheckSquareIcon" size="1x" />
-                {ct}
-              </span>
-            ))}
+            <div className="content">
+              {content.map((ct, index) => (
+                // eslint-disable-next-line react/no-array-index-key
+                <p className="text-muted" key={index}>
+                  <Icon className="check-icon" iconName="CheckSquareIcon" size="1x" />
+                  {ct}
+                </p>
+              ))}
+            </div>
           </div>
         ))}
       </Row>

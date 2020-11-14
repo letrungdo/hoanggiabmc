@@ -1,7 +1,10 @@
 ---
 anchor: "Services"
 header: "Services"
-subheader: "Professional security service."
+subheader: "We specialize in providing security services in Thu Duc district, Binh Thanh, Go Vap, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, Binh Tan, Tan Phu, Tan Binh, Binh Chanh district, Nha Be district, Phu Nhuan... HCM cCity.\n
+Ho Chi Minh City is home to the largest concentration of security companies, with hundreds of large and small companies and various professional security services.\n
+Choosing a professional security company for businesses in the HCM City is an issue of great concern. Enterprises need to understand the activities of the security company to make a choice of reputable security services that provide services for the business. Depending on the specifics of the target's work, each security service price differs. We are committed to providing honest quality reputation protection services.\n
+All security guards will be provided with full support tools and necessary items for protecting the business. If you need to install security equipment, surveillance cameras, and fire alarms, you can contact the Royal Saigon Security Company BMC."
 services: [
   {
     iconName: "UserShieldIcon",

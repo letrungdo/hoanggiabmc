@@ -19,6 +19,6 @@ module.exports = {
   defaultLang: "vi",
   langTextMap: {
     vi: "VN",
-    en: "English",
+    en: "EN",
   },
 };

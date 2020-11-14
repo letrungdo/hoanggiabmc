@@ -14,6 +14,9 @@ import breakDownAllNodes from "utils/breakDownAllNodes";
 import fileNameToSectionName from "utils/fileNameToSectionName";
 
 import "../style/main.scss";
+import { Row } from "react-bootstrap";
+import PageSection from "components/PageSection";
+import SectionHeader from "components/SectionHeader";
 
 /**
  * get file name list from content/sections folder
@@ -54,7 +57,8 @@ export const query = graphql`
           email
           imageFileName
           jumpToAnchor
-          jumpToAnchorText
+          whyHeader
+          why
           menuText
           prices {
             header
@@ -157,9 +161,16 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
       />
 
       <Top frontmatter={topNode.frontmatter} backgrounds={backgrounds.nodes} />
-      {
-        // dynamically import sections
-        sectionsNodes.map(({ frontmatter, fields: { fileName } }, ind) => {
+      <>
+        <PageSection className="top-why">
+          <Row>
+            <SectionHeader
+              header={topNode.frontmatter.whyHeader}
+              subheader={topNode.frontmatter.why}
+            />
+          </Row>
+        </PageSection>
+        {sectionsNodes.map(({ frontmatter, fields: { fileName } }, ind) => {
           const sectionComponentName = fileNameToSectionName(fileName);
           const SectionComponent = Sections[sectionComponentName];
 
@@ -170,8 +181,8 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
               frontmatter={frontmatter}
             />
           ) : null;
-        })
-      }
+        })}
+      </>
       <Footer frontmatter={footerNode.frontmatter} />
     </>
   );

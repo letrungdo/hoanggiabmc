@@ -1,20 +1,20 @@
 ---
 anchor: "About"
 header: "About"
-subheader: "BMC Royal Security Service Company Limited"
+subheader: "Hoang Gia Sai Gon BMC Company Limited"
 timeline: [
   {
     imageFileName: "about/1.jpg",
     header: "05/2019",
     subheader: "Open a company",
-    content: "BMC Royal Security Service Co., Ltd. is a unit specialized in providing protection throughout the territory of Vietnam, according to Certificate of Business Registration: 03156619738 issued on May 7, 2019 by the Department of Planning and Investment of Ho Chi Minh City. and Certificate of eligibility for security and order to provide security services by the Department of Public Administration Management and Social Center of Ho Chi Minh City Police in accordance with Decree 52/2008 / ND-CP."
+    content: "Hoang Gia Sai Gon BMC Service Co., Ltd. is a unit specialized in providing protection throughout the territory of Vietnam, according to Certificate of Business Registration: 03156619738 issued on May 7, 2019 by the Department of Planning and Investment of Ho Chi Minh City. and Certificate of eligibility for security and order to provide security services by the Department of Public Administration Management and Social Center of Ho Chi Minh City Police in accordance with Decree 52/2008 / ND-CP."
   },
   {
     imageFileName: "about/2.jpg",
     header: "",
     subheader: "Company leader board",
     content: "The company leaders are experienced in government affairs, social activities, service business, and have university and bachelor degrees in law and economics.
-BMC Royal Security Services Co., Ltd is built on the foundation of scientific security, with a team of dynamic, experienced and specialized staff, adapting to every situation. situations happen."
+Hoang Gia Sai Gon BMC Services Co., Ltd is built on the foundation of scientific security, with a team of dynamic, experienced and specialized staff, adapting to every situation. situations happen."
   },
   {
     imageFileName: "about/3.png",

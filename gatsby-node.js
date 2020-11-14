@@ -34,7 +34,8 @@ exports.createSchemaCustomization = ({ actions }) => {
     `type Frontmatter {
       anchor: String
       jumpToAnchor: String
-      jumpToAnchorText: String
+      whyHeader: String
+      why: String
       social: Social
       services: [Service]
       teamMember: [TeamMember]

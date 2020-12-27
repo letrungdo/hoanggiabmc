@@ -77,5 +77,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-preload-fonts`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Kaushan+Script`],
+        display: "swap",
+      },
+    },
   ],
 };

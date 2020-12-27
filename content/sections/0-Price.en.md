@@ -28,7 +28,7 @@ prices: [
     content: [
       "Price: 7,000,000 VND / shift 8 hours / 24h / month. (Not included VAT)",
       "Price: 8,000,000 VND / shift 12 hours / 24h / month. (Not included VAT)",
-      "Price: 15,000,000 VND / shift 24h / 24h / month. (Not included VAT)",
+      "Price: 17,000,000 VND / shift 24h / 24h / month. (Not included VAT)",
       "Service price of shifts requested by customers, please contact us directly for more detailed advice.",
       "We offer 100% promotion of mobile patrol team and support when there is an incident at the target, including: Quick response team, Command team. (Will support after 15 minutes when receiving information need support.)",
     ],

@@ -57,7 +57,7 @@ teamMember: [
   {
     imageFileName: "team/6.png",
     header: "Vu Hoang",
-    subheader: "Head of Operations\n (Former Lieutenant General of QK7 Logistics Department)",
+    subheader: "Head of Operations\n (Former Major, General Department of Logistics in QK7)",
     social: {
       twitter: "#",
       facebook: "#",

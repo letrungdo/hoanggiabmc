@@ -27,7 +27,7 @@ prices: [
     header: "Giá dịch vụ của chúng tôi:",
     content: [
       "Giá: 7.000.000 VNĐ/ca 8h/24h/tháng. (Chưa bao gồm VAT)", 
-      "Giá: 8.000.000 VNĐ/ca 12h/24h/tháng. (Chưa bao gồm VAT)",
+      "Giá: 9.000.000 VNĐ/ca 12h/24h/tháng. (Chưa bao gồm VAT)",
       "Giá: 17.000.000 VNĐ/ca 24h/24h/tháng. (Chưa bao gồm VAT)",
       "Giá dịch vụ các ca theo yêu cầu của quý khách hàng vui lòng liên hệ trực tiếp cho chúng tôi để được tư vấn chi tiết hơn.",
       "Chúng tôi khuyến mãi 100% đội tuần tra cơ động và hỗ trợ khi có sự cố tại mục tiêu gồm có: Đội phản ứng nhanh, Đội điều lệnh. (Sẽ hỗ trợ sau 15 phút khi nhận được thông tin cần hỗ trợ.)",

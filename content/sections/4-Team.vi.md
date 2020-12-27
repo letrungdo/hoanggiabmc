@@ -57,7 +57,7 @@ teamMember: [
   {
     imageFileName: "team/6.png",
     header: "Vũ Hoàng",
-    subheader: "Trưởng Phòng Nghiệp Vụ\n (Nguyên Thiếu Úy Tổng cục hậu cần QK7)",
+    subheader: "Trưởng Phòng Nghiệp Vụ\n (Nguyên Thiếu Tá Tổng cục hậu cần QK7)",
     social: {
       twitter: "#",
       facebook: "#",

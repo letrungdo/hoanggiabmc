@@ -1,22 +1,21 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql } from "gatsby";
-
-import Navbar from "views/Navbar";
-import Top from "views/Top";
-import Footer from "views/Footer";
-import * as Sections from "views/Sections";
-import SEO from "components/SEO";
+import { faBlenderPhone, faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LanguageSelector from "components/LanguageSelector";
-
-import "utils/fixFontAwesome";
-import breakDownAllNodes from "utils/breakDownAllNodes";
-import fileNameToSectionName from "utils/fileNameToSectionName";
-
-import "../style/main.scss";
-import { Row } from "react-bootstrap";
 import PageSection from "components/PageSection";
 import SectionHeader from "components/SectionHeader";
+import SEO from "components/SEO";
+import { graphql } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
+import { Row } from "react-bootstrap";
+import breakDownAllNodes from "utils/breakDownAllNodes";
+import fileNameToSectionName from "utils/fileNameToSectionName";
+import "utils/fixFontAwesome";
+import Footer from "views/Footer";
+import Navbar from "views/Navbar";
+import * as Sections from "views/Sections";
+import Top from "views/Top";
+import "../style/main.scss";
 
 /**
  * get file name list from content/sections folder
@@ -168,6 +167,31 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
               header={topNode.frontmatter.whyHeader}
               subheader={topNode.frontmatter.why}
             />
+            <div className="m-auto">
+              <p className="fs-20" style={{ color: "rgb(221, 11, 74)", fontWeight: "bold" }}>
+                Online support
+              </p>
+              <FontAwesomeIcon icon={faBlenderPhone} size="lg" className="mr-2" />
+              <span className="fs-20" style={{ color: "rgb(221, 11, 74)", fontWeight: "bold" }}>
+                Hotline: 0937451910
+              </span>
+              <br />
+              <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
+              <span className="fs-18">Phòng nhân sự     : 0906794612</span>
+              <br />
+              <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
+              <span className="fs-18">Phòng nghiệp vụ&nbsp;&nbsp;: 0981916419</span>
+              <br />
+              <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
+              <span className="fs-18">Phòng kinh doanh: 0902369610</span>
+              <br />
+              <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
+              <span className="fs-18">PCCC-Camera&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0788721856</span>
+              <br />
+              <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
+              <span className="fs-18">Email: thachhoanggiasaigonsss@gmail.com</span>
+              <br />
+            </div>
           </Row>
         </PageSection>
         {sectionsNodes.map(({ frontmatter, fields: { fileName } }, ind) => {

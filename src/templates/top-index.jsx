@@ -168,29 +168,48 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
               subheader={topNode.frontmatter.why}
             />
             <div className="m-auto">
-              <p className="fs-20" style={{ color: "rgb(221, 11, 74)", fontWeight: "bold" }}>
+              <p
+                className="fs-20"
+                style={{
+                  color: "white",
+                  fontWeight: "bold",
+                  backgroundColor: "rgb(221, 11, 74)",
+                  marginBottom: 0,
+                  borderRadius: "10px 10px 0 0",
+                  textAlign: "center"
+                }}
+              >
                 Online support
               </p>
-              <FontAwesomeIcon icon={faBlenderPhone} size="lg" className="mr-2" />
-              <span className="fs-20" style={{ color: "rgb(221, 11, 74)", fontWeight: "bold" }}>
-                Hotline: 0937451910
-              </span>
-              <br />
-              <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
-              <span className="fs-18">Phòng nhân sự     : 0906794612</span>
-              <br />
-              <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
-              <span className="fs-18">Phòng nghiệp vụ&nbsp;&nbsp;: 0981916419</span>
-              <br />
-              <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
-              <span className="fs-18">Phòng kinh doanh: 0902369610</span>
-              <br />
-              <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
-              <span className="fs-18">PCCC-Camera&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0788721856</span>
-              <br />
-              <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-              <span className="fs-18">Email: thachhoanggiasaigonsss@gmail.com</span>
-              <br />
+              <div
+                style={{
+                  borderStyle: "none dashed dashed",
+                  padding: "5px 10px",
+                  borderRadius: "0 0 10px 10px",
+                  borderColor: "red",
+                }}
+              >
+                <FontAwesomeIcon icon={faBlenderPhone} size="lg" className="mr-2" />
+                <span className="fs-20" style={{ color: "rgb(221, 11, 74)", fontWeight: "bold" }}>
+                  Hotline: 0937451910
+                </span>
+                <br />
+                <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
+                <span className="fs-18">Phòng nhân sự     : 0906794612</span>
+                <br />
+                <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
+                <span className="fs-18">Phòng nghiệp vụ&nbsp;&nbsp;: 0981916419</span>
+                <br />
+                <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
+                <span className="fs-18">Phòng kinh doanh: 0902369610</span>
+                <br />
+                <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
+                <span className="fs-18">PCCC-Camera&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0788721856</span>
+                <br />
+                <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
+                <span className="fs-18">Email: thachhoanggiasaigonsss@gmail.com</span>
+                <br />
+              </div>
             </div>
           </Row>
         </PageSection>

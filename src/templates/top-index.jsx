@@ -204,7 +204,7 @@ const IndexPage = ({ data, pathContext: { langKey, defaultLang, langTextMap } })
                 <span className="fs-18">Phòng kinh doanh: 0902369610</span>
                 <br />
                 <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
-                <span className="fs-18">PCCC-Camera&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0788721856</span>
+                <span className="fs-18">PCCC Camera&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0788721856</span>
                 <br />
                 <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
                 <span className="fs-18">Email: thachhoanggiasaigonsss@gmail.com</span>

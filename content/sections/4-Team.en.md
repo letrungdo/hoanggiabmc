@@ -25,8 +25,8 @@ teamMember: [
     }
   },
   {
-    imageFileName: "team/3.png",
-    header: "Huynh Thanh Trung",
+    imageFileName: "team/3.jpg",
+    header: "Vu Dinh Lam",
     subheader: "Deputy CEO\n(Bachelor of Laws)",
     social: {
       twitter: "#",

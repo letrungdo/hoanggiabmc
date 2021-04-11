@@ -25,8 +25,8 @@ teamMember: [
     }
   },
   {
-    imageFileName: "team/3.png",
-    header: "Huỳnh Thanh Trung",
+    imageFileName: "team/3.jpg",
+    header: "Vũ Đình Lâm",
     subheader: "Phó Giám đốc điều hành\n(Cử nhân luật)",
     social: {
       twitter: "#",

@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
 import Image from "components/Image";
+import PropTypes from "prop-types";
+import React from "react";
 import { Modal } from "react-bootstrap";
 // import { Button } from "react-bootstrap";
 // import Icon from "./Icon";
@@ -28,11 +28,14 @@ const PortfolioDetailDialog = ({
       </Modal.Header>
       <Modal.Body>
         <p className="item-intro text-muted">{subheader}</p>
-        <Image
-          className="img-fluid d-block"
-          fileName={imageFileName}
-          alt={imageAlt || header || subheader}
-        />
+        {imageFileName.map((img) => (
+          <Image
+            key={img}
+            className="img-fluid d-block"
+            fileName={img}
+            alt={imageAlt || header || subheader}
+          />
+        ))}
         <p>{content}</p>
         {extraInfo}
       </Modal.Body>
